@@ -91,7 +91,78 @@ button:hover {
     opacity: 0.8;
 }
 
-@media only screen and (max-width: 650px) {
+@media only screen and (max-device-width: 650px) {
+    .box {
+        width: 98%;
+        height: 46px;
+        color: #ffffff;
+        font-size: 29px;
+        text-align: center;
+        padding: 10px 0;
+        margin: 5px 0;
+        line-height: 20px;
+        background: rgb(239, 239, 239) !important;
+        box-shadow: 0 0 0 !important;
+    }
+    button {
+        width: 30%;
+        float: left;
+        margin: 6px 8px;
+        padding: 1rem 0rem;
+    }
+    .right-section>div {
+        margin: 0.3rem 25%;
+        width: 80%;
+    }
+    .wrapper {
+        background: #FFFFFF;
+        border: none;
+    }
+    .container {
+        border: 13px solid;
+    }
+    .heading {
+        text-align: center;
+        background: #000;
+        color: #fff;
+        margin: 0 0 0px 0;
+        padding-bottom: 1rem;
+    }
+    .left-section {
+        width: 100%;
+        float: none;
+    }
+    .right-section {
+        width: 100%;
+        float: none;
+    }
+    .innerdiv {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    #model-1 {
+        background: rgb(239, 239, 239);
+        border-left: 8px solid #6F98A8;
+    }
+    #model-8 {
+        background: rgb(239, 239, 239);
+        border-left: 8px solid #6F98A8;
+    }
+    #model-2, #model-4 {
+        background: rgb(239, 239, 239);
+        border-left: 8px solid #2B8EAD;
+    }
+    #model-6, #model-7 {
+        background: rgb(239, 239, 239);
+        border-left: 8px solid #BFBFBF;
+    }
+    #model-3, #model-5, #model-9 {
+        background: rgb(239, 239, 239);
+        border-left: 8px solid #2F454E;
+    }
+}
+
+@media only screen and (max-device-width: 650px) {
     .box {
         width: 98%;
         height: 46px;
